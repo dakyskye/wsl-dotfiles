@@ -41,7 +41,7 @@ These files go in `~/.config/fish/config/` directory after installing Fish.
 
 I use [Pacman](https://wiki.archlinux.org/index.php/pacman).
 
-The `packages` folder contain packages from official repositories (native) and the [*AUR*](https://aur.archlinux.org/] (foregin).
+The `packages` folder contains packages from official repositories (native) and the [*AUR*](https://aur.archlinux.org/) (foregin).
 
 #### Installing
 
