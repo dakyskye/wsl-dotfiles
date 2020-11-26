@@ -30,7 +30,6 @@ ripgrep
 rustup
 sudo
 systemd
-termite
 texinfo
 the_silver_searcher
 vim
