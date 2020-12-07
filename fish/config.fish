@@ -1,6 +1,9 @@
 starship init fish | source
 
+set -x LIBGL_ALWAYS_INDIRECT 1
 set -x DISPLAY (cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+set -x BROWSER explorer.exe
+set -x GPG_TTY (tty)
 
 set -x WORK "$HOME/Work"
 set -x CONFIG "$HOME/.config"
@@ -14,6 +17,7 @@ set -x EMACSPATH "$HOME/.emacs.d"
 set -x PATH "$PATH:$SCRIPTS/:$GOPATH/bin:$CARGOPATH/bin:$EMACSPATH/bin"
 
 set -x FZF_DEFAULT_COMMAND "ag --hidden --ignore .git -g ''"
+set -x DONT_PROMPT_WSL_INSTALL 1
 
 alias vim "nvim"
 
