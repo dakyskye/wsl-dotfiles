@@ -23,6 +23,12 @@ My Linux dotfiles lie [there](https://github.com/dakyskye/dotfiles).
 
 ## Configs
 
+### WSL
+
+Main [WSL2](https://docs.microsoft.com/en-us/windows/wsl/compare-versions#whats-new-in-wsl-2) config.
+
+The files from `wsl` directory go in `%USERPROFILE%\.wslconfig` on Windows host.
+
 ### Emacs
 
 I use [Doom Emacs](https://github.com/hlissner/doom-emacs).
