@@ -1,5 +1,7 @@
 # wsl-dotfiles
 
+⚠️ this repo is merged [there](https://github.com/dakyskye/dotfiles) ⚠️
+
 This repository contains my WSL dotfiles.
 Those configs are everything I need on Windows to feel like developer environment.
 
